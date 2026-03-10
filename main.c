@@ -1,7 +1,12 @@
 #include <stdio.h>
 
 int main() {
-      printf("Hello world");
+      int x, y;
+      int sum;
+
+      sum = x + y;
+
+      printf("The sum of both numbers are : %d\n", sum);
 
       return 0;
 }
