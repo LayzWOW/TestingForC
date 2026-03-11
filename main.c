@@ -1,15 +1,16 @@
 #include <stdio.h>
 
 int main() {
-      int x, y;
+      int x, y, z;
       int sum;
 
-      x = 6;
-      y = 9;
+      x = 12;
+      y = 5;
+      z = 9;
 
-      sum = x + y;
+      sum = x + y + z;
 
-      printf("The sum of both numbers are : %d\n", sum);
+      printf("The sum of three numbers are : %d\n", sum);
 
       return 0;
 }
